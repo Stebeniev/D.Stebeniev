@@ -2,7 +2,9 @@ document.addEventListener('DOMContentLoaded', function() {
   function addShowClassWithDelay(elements, delay) {
     elements.forEach((element, index) => {
       setTimeout(() => {
-        element.classList.add('show');
+        if (element) {
+          element.classList.add('show');
+        }
       }, index * delay);
     });
   }
@@ -24,14 +26,6 @@ document.addEventListener('DOMContentLoaded', function() {
   addShowClassWithDelay(Array.from(contactsItems), 1000);
 });
 
-// document.addEventListener('DOMContentLoaded', function() {
-//   const burgerMenu = document.querySelector('.burger-menu');
-//   const navList = document.querySelector('.nav-list');
-//
-//   burgerMenu.addEventListener('click', function() {
-//     navList.classList.toggle('nav-list--open');
-//   });
-// });
 document.addEventListener('DOMContentLoaded', function() {
   const burgerMenu = document.querySelector('.burger-menu');
   const navList = document.querySelector('.nav-list');
