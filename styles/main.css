@@ -346,22 +346,28 @@ span {
 .burger-menu {
     display: none;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: none;
+    justify-content: space-around;
+    width: 30px;
+    height: 24px;
+    background: transparent;
     border: none;
     cursor: pointer;
+    padding: 0;
+    z-index: 1001;
 }
 
 .burger-menu__line {
-    width: 25px;
+    width: 100%;
     height: 3px;
-    background-color: #fff;
-    margin: 3px 0;
+    background: #fff;
+    border-radius: 10px;
+    transition: all 0.3s linear;
+    position: relative;
 }
 
 .burger-menu.is-active .burger-menu__line:nth-child(1) {
-    transform: rotate(45deg) translate(6px, 6px);
+    transform: rotate(45deg);
+    top: 8px;
 }
 
 .burger-menu.is-active .burger-menu__line:nth-child(2) {
@@ -369,26 +375,10 @@ span {
 }
 
 .burger-menu.is-active .burger-menu__line:nth-child(3) {
-    transform: rotate(-45deg) translate(6px, -6px);
+    transform: rotate(-45deg);
+    top: -8px;
 }
 /* end burger menu */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @media (min-width: 1440px) {
@@ -411,6 +401,15 @@ span {
         left: 4em;
         top: 9em;
         font-size: 0.88rem;
+    }
+
+    .title {
+        left: 7em;
+        top: 12em;
+    }
+
+    .projects {
+        margin-top: 25px;
     }
 }
 
@@ -438,7 +437,7 @@ span {
         position: absolute;
         top: 60px;
         left: 0;
-        background-color: #333;
+        background-color: dimgray;
         opacity: 0;
         visibility: hidden;
         transition: opacity 0.3s ease, top 0.3s ease;
@@ -450,16 +449,37 @@ span {
         opacity: 1;
         visibility: visible;
         transition: opacity 0.3s ease, top 0.3s ease;
+        width: 100%;
+        height: 600px;
+        z-index: 1000;
     }
 
     .nav-list__item {
-        margin: 15px 0;
+        margin: 28px 0;
         text-align: center;
     }
+
     .burger-menu {
         display: flex;
         margin-left: auto;
-        margin-right: 20px
+        margin-right: 20px;
+    }
+
+    .title {
+        left: 6em;
+        top: 10em;
+    }
+
+    .title-content {
+        font-size: 2em;
+    }
+
+    .title-content__main {
+        font-size: 1.6em;
+    }
+
+    .title-content__text {
+        font-size: 2em;
     }
 }
 
@@ -472,5 +492,31 @@ span {
         padding-left: 10px;
         padding-right: 30px;
         border-left: 2px solid #ffc815;
+    }
+
+    .title {
+        left: 5em;
+        top: 8em;
+    }
+
+    .title-content {
+        font-size: 1.8em;
+    }
+
+    .title-content__main {
+        font-size: 1.2em;
+    }
+
+    .title-content__text {
+        font-size: 1.8em;
+    }
+
+    .contacts-item {
+        font-size: 1.4em;
+    }
+
+    .contacts-title {
+        left: 4em;
+        top: 8em;
     }
 }
