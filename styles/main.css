@@ -435,6 +435,7 @@ span {
     }
 }
 
+
 @media (max-width: 992px) {
     .education-title {
         left: 3em;
@@ -553,7 +554,7 @@ span {
     }
 }
 
-@media (max-width: 320px) {
+@media only screen and (max-width: 320px) {
     .title {
         left: 2em;
         top: 4em;
@@ -579,4 +580,20 @@ span {
     }
 
 
+}
+
+@media (max-height: 1080px) {
+    .title {
+        left: 2em;
+        top: 2em;
+    }
+
+    .download-btn {
+        top: 60px;
+        left: 3em;
+    }
+
+    .footer {
+        padding: 30px 0 20px;
+    }
 }
