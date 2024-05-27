@@ -380,6 +380,24 @@ span {
 }
 /* end burger menu */
 
+.download-btn {
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    top: 350px;
+    left: 150px;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: black;
+    border: 1px solid #ffc815;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+    background-color: gray;
+}
 
 @media (min-width: 1440px) {
     .education-title {
@@ -410,6 +428,10 @@ span {
 
     .projects {
         margin-top: 25px;
+    }
+    .download-btn {
+        top: 350px;
+        left: 10em;
     }
 }
 
@@ -481,6 +503,11 @@ span {
     .title-content__text {
         font-size: 2em;
     }
+
+    .download-btn {
+        top: 350px;
+        left: 8em;
+    }
 }
 
 @media (max-width: 576px) {
@@ -519,4 +546,37 @@ span {
         left: 4em;
         top: 8em;
     }
+
+    .download-btn {
+        top: 350px;
+        left: 7em;
+    }
+}
+
+@media (max-width: 320px) {
+    .title {
+        left: 2em;
+        top: 4em;
+    }
+
+    .download-btn {
+        top: 350px;
+        left: 4em;
+    }
+
+    .title-content__text {
+        font-size: 1.5em;
+    }
+
+    .contacts-title {
+        left: 1em;
+        top: 4em;
+        padding-left: 10px;
+    }
+
+    .contacts-item {
+        font-size: 1.1em;
+    }
+
+
 }
