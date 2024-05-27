@@ -97,9 +97,9 @@ body {
     border-left: 4px solid #ffc815;
     font-size: 1rem;
     gap: 30px;
-    position: relative;
-    left: 8em;
-    top: 18em;
+    /*position: relative;*/
+    margin-left: 8em;
+    margin-top: 18em;
 }
 
 .title-content {
@@ -382,9 +382,11 @@ span {
 
 .download-btn {
     font-family: 'Inter', sans-serif;
-    position: relative;
-    top: 350px;
-    left: 150px;
+    margin-top: 80px;
+    margin-left: 130px;
+    /*position: relative;*/
+    /*top: 350px;*/
+    /*left: 150px;*/
     padding: 10px 20px;
     background-color: #ffffff;
     color: black;
@@ -423,7 +425,7 @@ span {
 
     .title {
         left: 7em;
-        top: 12em;
+        margin-top: 10em;
     }
 
     .projects {
@@ -490,7 +492,7 @@ span {
 
     .title {
         left: 6em;
-        top: 10em;
+        margin-top: 8em;
     }
 
     .title-content {
@@ -524,7 +526,7 @@ span {
 
     .title {
         left: 5em;
-        top: 8em;
+        margin-top: 8em;
     }
 
     .title-content {
@@ -549,20 +551,20 @@ span {
     }
 
     .download-btn {
-        top: 350px;
+        margin-top: 40px;
         left: 7em;
     }
 }
 
 @media only screen and (max-width: 320px) {
     .title {
-        left: 2em;
-        top: 4em;
+        margin-left: 2em;
+        margin-top: 4em;
     }
 
     .download-btn {
-        top: 350px;
-        left: 4em;
+        margin-top: 40px;
+        margin-left: 3em;
     }
 
     .title-content__text {
@@ -584,13 +586,13 @@ span {
 
 @media (min-height: 1080px) {
     .title {
-        left: 2em;
-        top: 2em;
+        margin-left: 2em;
+        margin-top: 2em;
     }
 
     .download-btn {
-        top: 60px;
-        left: 3em;
+        margin-top: 60px;
+        margin-left: 3em;
     }
 
     .footer {
