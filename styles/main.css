@@ -584,18 +584,18 @@ span {
 
 }
 
-@media (min-height: 1080px) {
-    .title {
-        margin-left: 2em;
-        margin-top: 2em;
-    }
+/*@media (min-height: 1080px) {*/
+/*    .title {*/
+/*        margin-left: 2em;*/
+/*        margin-top: 2em;*/
+/*    }*/
 
-    .download-btn {
-        margin-top: 60px;
-        margin-left: 3em;
-    }
+/*    .download-btn {*/
+/*        margin-top: 60px;*/
+/*        margin-left: 3em;*/
+/*    }*/
 
-    .footer {
-        padding: 30px 0 20px;
-    }
-}
+/*    .footer {*/
+/*        padding: 30px 0 20px;*/
+/*    }*/
+/*}*/
