@@ -582,7 +582,7 @@ span {
 
 }
 
-@media (max-height: 1080px) {
+@media (min-height: 1080px) {
     .title {
         left: 2em;
         top: 2em;
