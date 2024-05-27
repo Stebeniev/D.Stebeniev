@@ -228,9 +228,9 @@ body {
     border-left: 4px solid #ffc815;
     font-size: 1rem;
     gap: 30px;
-    position: relative;
-    left: 5em;
-    top: 10em;
+    /*position: relative;*/
+    margin-left: 5em;
+    margin-top: 10em;
 }
 
 .skills-list {
@@ -262,9 +262,9 @@ body {
     border-left: 4px solid #ffc815;
     font-size: 1rem;
     gap: 30px;
-    position: relative;
-    left: 5em;
-    top: 10em;
+    /*position: relative;*/
+    margin-left: 5em;
+    margin-top: 10em;
 }
 .education-item {
     font-size: 1.8em;
@@ -301,9 +301,9 @@ span {
     border-left: 4px solid #ffc815;
     font-size: 1rem;
     gap: 30px;
-    position: relative;
-    left: 5em;
-    top: 10em;
+    /*position: relative;*/
+    margin-left: 5em;
+    margin-top: 10em;
 }
 
 .contacts-item {
@@ -403,28 +403,28 @@ span {
 
 @media (min-width: 1440px) {
     .education-title {
-        left: 5em;
-        top: 10em;
+        margin-left: 5em;
+        margin-top: 10em;
         font-size: 0.9rem;
     }
 }
 
 @media (max-width: 1200px) {
     .education-title {
-        left: 5em;
-        top: 10em;
+        margin-left: 5em;
+        margin-top: 10em;
         font-size: 0.9rem;
     }
 }
 @media (max-width: 1024px) {
     .education-title {
-        left: 4em;
-        top: 9em;
+        margin-left: 4em;
+        margin-top: 9em;
         font-size: 0.88rem;
     }
 
     .title {
-        left: 7em;
+        margin-left: 7em;
         margin-top: 10em;
     }
 
@@ -440,16 +440,16 @@ span {
 
 @media (max-width: 992px) {
     .education-title {
-        left: 3em;
-        top: 8em;
+        margin-left: 3em;
+        margin-top: 8em;
         font-size: 0.85rem;
     }
 }
 
 @media (max-width: 768px) {
     .education-title {
-        left: 2em;
-        top: 6em;
+        margin-left: 2em;
+        margin-top: 6em;
         font-size: 0.8rem;
         gap: 20px;
         padding-left: 15px;
@@ -491,7 +491,7 @@ span {
     }
 
     .title {
-        left: 6em;
+        margin-left: 6em;
         margin-top: 8em;
     }
 
@@ -515,8 +515,8 @@ span {
 
 @media (max-width: 576px) {
     .education-title {
-        left: 1em;
-        top: 5em;
+        margin-left: 1em;
+        margin-top: 5em;
         font-size: 0.75rem;
         gap: 15px;
         padding-left: 10px;
@@ -525,7 +525,7 @@ span {
     }
 
     .title {
-        left: 5em;
+        margin-left: 5em;
         margin-top: 8em;
     }
 
@@ -546,13 +546,13 @@ span {
     }
 
     .contacts-title {
-        left: 4em;
-        top: 8em;
+        margin-left: 4em;
+        margin-top: 8em;
     }
 
     .download-btn {
         margin-top: 40px;
-        left: 7em;
+        margin-left: 7em;
     }
 }
 
@@ -572,8 +572,8 @@ span {
     }
 
     .contacts-title {
-        left: 1em;
-        top: 4em;
+        margin-left: 1em;
+        margin-top: 4em;
         padding-left: 10px;
     }
 
