@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function() {
   if (downloadBtn) {
     downloadBtn.addEventListener('click', function() {
       const link = document.createElement('a');
-      link.href = './CV_Dmitriy-Stebeniev.pdf';
+      link.href = './CV_Dmitriy_Stebeniev.pdf';
       link.download = 'resume Dmitriy_Stebeniev.pdf';
       document.body.appendChild(link);
       link.click();
