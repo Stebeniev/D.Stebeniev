@@ -185,6 +185,7 @@ body {
 
 .project__img {
     border-radius: 20px;
+    height: 210px;
 }
 
 .project__title {
